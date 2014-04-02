@@ -11,13 +11,6 @@
 
 const EXPORTED_SYMBOLS = ['inherit'];
 
-function defineProperties(aTarget, aProperties) {
-	Object.keys(aProperties).forEach(function(aProperty) {
-		var description = Object.getOwnPropertyDescriptor(aProperties, aProperty);
-		Object.defineProperty(aTarget, aProperty, description);
-	});
-}
-
 function toPropertyDescriptors(aProperties) {
 	var descriptors = {};
 	Object.keys(aProperties).forEach(function(aProperty) {
