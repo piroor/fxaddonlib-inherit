@@ -22,6 +22,7 @@ function toPropertyDescriptors(aProperties) {
 
 function inherit(aParent, aExtraProperties) {
 	if (!Object.create) {
+		aExtraProperties = aExtraProperties || {};
 		aExtraProperties.__proto__ = aParent;
 		return aExtraProperties;
 	}
