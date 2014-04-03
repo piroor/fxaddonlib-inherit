@@ -1,4 +1,4 @@
 fxaddonlib-inherit
 ==================
 
-An alternative of "__proto__"
+An alternative of `__proto__`
