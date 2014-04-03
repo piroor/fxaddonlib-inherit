@@ -1,7 +1,7 @@
 /**
  * @fileOverview inherit, an alternative for __proto__
  * @author       YUKI "Piro" Hiroshi
- * @version      1
+ * @version      2
  *
  * @license
  *   The MIT License, Copyright (c) 2014 YUKI "Piro" Hiroshi.
